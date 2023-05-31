@@ -1,0 +1,41 @@
+{
+    "folders": [
+		{
+			"path": "../FullStackJavaDeveoperNareshit/Html,css,js/Coding/css"
+		},
+		{
+			"path": "../FullStackJavaDeveoperNareshit/Html,css,js/Coding/Css3"
+		},
+		{
+			"path": "../FullStackJavaDeveoperNareshit/Html,css,js/Coding/Html"
+		},
+		{
+			"path": "../FullStackJavaDeveoperNareshit/Html,css,js/Coding/Html5"
+		},
+		{
+			"path": "../FullStackJavaDeveoperNareshit/Html,css,js/Coding/JavaScript"
+		},
+		{
+			"path": "../FullStackJavaDeveoperNareshit/Html,css,js/Coding/OwnJavaScriptPages"
+		},
+		{
+			"path": "../FullStackJavaDeveoperNareshit/Html,css,js/Coding/Ownwebsite"
+		},
+		{
+			"path": "../FullStackJavaDeveoperNareshit/Html,css,js/Coding/pure-css-gradient-background-animation"
+		},
+		{
+			"path": "../FullStackJavaDeveoperNareshit/Html,css,js/Coding/Portfolio-references"
+		},
+		{
+			"path": "../Xml files"
+		},
+		{
+			"path": "."
+		}
+	],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "KVRSP!",
+        "liveServer.settings.port": 5501
+    }
+}

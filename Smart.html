@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>KVSRP Enterprises</title>
+        <link rel="stylesheet" href="style.css">
+          
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,500;1,600&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <section id="Employee">
+        <img src="IMG/LOGO.webp" class="logo">
+        <div class="Employee-text">
+            <h1> Welcome to KVSRP Enterprises</h1>
+            <h3>Quality Meets Excellece</h3>
+            <div class="Employee-bin">
+                <a href="#"><span></span>click me boss</a>
+                <a href="#"><span></span>hello boss click me</a>
+            </div>
+        </div>
+     </section>
+     <div class="sidenav">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#clients">Clients</a>
+        <a href="#contact">Contact</a>
+        <button class="dropdown-btn">Dropdown<i class="fa-fa-caret-down"></i></button>
+        
+        <div class="dropdown-container">
+          <a href="#"></a>
+          <a href="Smart.html">Smart Cl</a>
+          <a href="#">Link 3</a>
+        </div>
+        <a href="#contact">Search</a>
+      </div>
+      <div id="manuB">
+        
+      </div>
+      <script>
+      /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+      var dropdown = document.getElementsByClassName("dropdown-btn");
+      var i;
+      
+      for (i = 0; i < dropdown.length; i++) {
+        dropdown[i].addEventListener("click", function() 
+        {
+          this.classList.toggle("active");
+          var dropdownContent = this.nextElementSibling;
+          if (dropdownContent.style.display === "block") 
+          {
+            dropdownContent.style.display = "none";
+          } else {
+            dropdownContent.style.display = "block";
+          }
+        });
+      }
+      </script>
+     <section id="breadcrumbs" class="breadcrumbs">
+        <div class="container">
+  
+          <div class="d-flex justify-content-between align-items-center">
+            <h2>Services</h2>
+            <ol>
+              <li><a href="home.html">Home</a></li>
+              <li><a href="Services.html"">Services</li>
+            </ol>
+          </div>
+  
+        </div>
+      </section>
+</body>
+</html>
